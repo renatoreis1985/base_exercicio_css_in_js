@@ -1,7 +1,7 @@
 .vaga {
-  border: 1px solid var(--cor-principal);
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(25, 0, 255);
+  color: rgb(255, 255, 255);
   padding: 16px;
   transition: all ease .3s;
   border-radius: 8px;
@@ -14,7 +14,7 @@
 
 .vagaLink {
   border-color: var(--cor-secundaria);
-    background-color: var(--cor-principal);
+    background-color: rgb(255, 39, 39);
     color: var(--cor-secundaria);
     display: inline-block;
     padding: 8px 16px;
@@ -31,12 +31,12 @@
 }
 
 .vaga:hover {
-  background-color: var(--cor-principal);
+  background-color: black;
   color: var(--cor-secundaria);
 }
 
 .vaga:hover a {
   border-color: var(--cor-principal);
   background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
+  color: red;
 }
